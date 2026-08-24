@@ -17,6 +17,7 @@ body {
     ),  
     url("./images/homepage/hero-bg-desktop.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 
 }
 .hero-header {
