@@ -5,20 +5,20 @@
 }
 body {
   background-color: hsl(0, 69%, 3%);
+  font-family: "League Spartan", sans-serif;
 }
 .hero {
-    background-image: 
-     linear-gradient(
+  background-image:
+    linear-gradient(
       to right,
       black 0%,
       black 38%,
       rgba(50, 50, 50, 0.2) 38%,
       rgba(50, 50, 50, 0.2) 100%
-    ),  
+    ),
     url("./images/homepage/hero-bg-desktop.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .hero-header {
   padding: 65px 0px 198px 165px;
@@ -55,4 +55,52 @@ body {
     letter-spacing: 2.5px;
     text-transform: uppercase;
   }
+}
+.highlights {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 121px;
+}
+.highlights-item {
+  display: flex;
+  gap: 125px;
+  padding-top: 200px;
+  padding-left: 165px;
+  padding-right: 165px;
+  background-image: url("./images/patterns/pattern-curve-top-right.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 320px;
+}
+.highlight-content {
+  h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    width: 445px;
+    margin-top: 48px;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 445px;
+    margin-top: 24px;
+  }
+}
+.highlight-image {
+    margin-top: -256px;
+}
+.highlight-item-reversed {
+  background-image: url("./images/patterns/pattern-curve-top-left.svg");
+  background-repeat: no-repeat;
+  background-position: 570px 320px;
+}
+.item-two {
+    display: flex;
+}
+.divide-lines {
+ margin-top:300px;
+ margin-left:-30px;
+
 }
